@@ -24,6 +24,7 @@ Eres un experto en bases de datos y Prisma ORM. Tu misión es convertir el sigui
 
 ## ERD en formato Mermaid:
 
+```
 mermaid
 erDiagram
      COMPANY {
@@ -111,6 +112,8 @@ erDiagram
      APPLICATION ||--o{ INTERVIEW : has
      INTERVIEW ||--|| INTERVIEW_STEP : consists_of
      EMPLOYEE ||--o{ INTERVIEW : conducts
+
+```
 
 ```ChatGPT : ``` 
 
